@@ -13,17 +13,17 @@ const SocialLogin = () => {
                 <span className='bg-cyan-500 h-px w-full ml-3'></span>
             </div>
             <button
-                className='inline-flex items-center py-3 px-9 rounded-lg bg-neutral-200 mx-2'>
+                className='inline-flex items-center py-3 px-9 rounded-lg bg-neutral-200 mx-2 my-2'>
                 <img className='mr-3' src={gooleLogo} alt="" />
                 Google Login
             </button>
             <button
-                className='inline-flex items-center py-3 px-9 rounded-lg bg-neutral-200 mx-2'>
+                className='inline-flex items-center py-3 px-9 rounded-lg bg-neutral-200 mx-2 my-2'>
                 <img className='mr-3' src={facebookLogo} alt="" />
                 Facebook Login
             </button>
             <button
-                className='inline-flex items-center py-3 px-9 rounded-lg bg-neutral-200 mx-2'>
+                className='inline-flex items-center py-3 px-9 rounded-lg bg-neutral-200 mx-2 my-2'>
                 <img className='mr-3' src={githubLogo} alt="" />
                 Github Login
             </button>

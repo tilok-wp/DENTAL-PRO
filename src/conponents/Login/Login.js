@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Login = () => {
+
     return (
         <div className='container mx-auto py-28'>
             <h3 className="my-5 text-center text-3xl uppercase">Please login</h3>
