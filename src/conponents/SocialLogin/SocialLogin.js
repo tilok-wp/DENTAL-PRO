@@ -5,14 +5,13 @@ import githubLogo from '../../images/github.png'
 import auth from '../../firebase.init';
 import { useSignInWithFacebook, useSignInWithGithub, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router-dom';
-import Loding from '../Loding/Loding';
+import Spinner from '../Spinner/Spinner';
 
-const SocialLogin = () => {
+const SocialLogin = ({ passwordResetHandale }) => {
     const navigate = useNavigate()
     const [signInWithGoogle, userGoogle, loadingGoogle, errorGoogle] = useSignInWithGoogle(auth);
     const [signInWithGithub, userGithub, loadingGithub, errorGithub] = useSignInWithGithub(auth);
     const [signInWithFacebook, userFacebook, loadingFacebook, errorFacebook] = useSignInWithFacebook(auth);
-
 
 
     if (userGoogle || userFacebook || userGithub) {
@@ -23,12 +22,12 @@ const SocialLogin = () => {
         errorText = <p className='text-red-800 p-3'>Error: {errorGoogle?.message} {errorGithub?.message} {errorFacebook?.message}</p>
     }
     if (loadingGoogle || loadingGithub || loadingFacebook) {
-        return <Loding></Loding>
+        return <Spinner></Spinner>
     }
 
     return (
         <div>
-            <p>Forget password? <button className='font-bold ml-3'>Reset password </button> </p>
+
             <div className='flex items-center p-5'>
                 <span className='bg-cyan-500 h-px w-full mr-3'></span>
                 OR

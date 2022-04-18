@@ -2,7 +2,8 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
 import SocialLogin from '../SocialLogin/SocialLogin';
-import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth'
+import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth'
+import Spinner from '../Spinner/Spinner';
 
 const Register = () => {
     const navigate = useNavigate()
@@ -12,27 +13,32 @@ const Register = () => {
         user,
         loading,
         error,
-    ] = useCreateUserWithEmailAndPassword(auth);
+    ] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
+    const [updateProfile, updating, updateError] = useUpdateProfile(auth);
 
-    const handleRegisterSubmit = event => {
+    const handleRegisterSubmit = async (event) => {
         event.preventDefault()
-        const fullName = event.target.displayName.value
+        const displayName = event.target.displayName.value
         const email = event.target.email.value
         const password = event.target.password.value
-        // console.log(fullName, email, password)
+        // console.log(displayName, email, password)
         createUserWithEmailAndPassword(email, password)
+        await createUserWithEmailAndPassword(email, password);
+        await updateProfile({ displayName });
+        navigate('/home')
+
+    }
+    if (loading) {
+        return <Spinner></Spinner>
     }
 
-    if (user) {
-        navigate('/home')
-    }
     let errorText
     if (error) {
         errorText = <p className='text-red-800 p-3'>Error: {error?.message}</p>
     }
 
     return (
-        <div className='container mx-auto py-16'>
+        <div className='container mx-auto py-16 text-center'>
             <h3 className="my-5 text-center text-3xl uppercase">Please Register</h3>
 
             <div className='shadow shadow-blue-500/40 hover:shadow-indigo-500/40 md:w-1/2 mx-auto py-8  rounded-lg bg-slate-50'>
