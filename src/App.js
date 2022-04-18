@@ -10,6 +10,8 @@ import Services from './conponents/Services/Services';
 import Checkout from './conponents/Checkout/Checkout';
 import Blogs from './conponents/Blogs/Blogs';
 import Contact from './conponents/Contact/Contact';
+import Login from './conponents/Login/Login';
+import Register from './conponents/Register/Register';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route path='/services' element={<Services></Services>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
+        <Route path='/login' element={<Login></Login>}></Route>
+        <Route path='/register' element={<Register></Register>}></Route>
         <Route path='/checkout' element={<Checkout>'</Checkout>}></Route>
         <Route path='*' element={<Notfound></Notfound>}></Route>
       </Routes>
