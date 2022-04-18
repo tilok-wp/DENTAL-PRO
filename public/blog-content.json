@@ -2,16 +2,16 @@
     {
       "id": "624adeb17c821c",
       "title": "Difference between authorization and authentication ",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      "description": "Authorization just process of verifying someone. Authorization process, individual or user authorities are checked for access to resources.In this process, the user or person is being recognized. When it is race after the processing process. What time does it allow the user to pass? In the authentication process, the user's identity is checked to reach the system. In the authentication process, an individual is verified. This has been done before the authority process. "
     },
     {
       "id": "624adeb180b",
       "title": "Why using firebase? options",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      "description": "Firebase has provided many features that make it a back-end development tool for web and mobile apps. It reduces development workload and time. And it's an ideal prototype tool. Firebase is recognized as simple, light, user friendly. features: Email & password, Google, Facebook, and Github others authentication. Realtime data, Ready-made api and many more."
     },
     {
       "id": "624adeb13e",
       "title": "What other services does firebase provide other than authentication",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+      "description": "Firebase Authentication provides backend services.  Firebase also provided many more services. Firebase services are mentioned. Realtime data process. Ready-made api create. Built in security at the data node level. File storage backed by Google Cloud Storage. File hosting. build highly scalable applications. Firebase provides more one is subdomain which we can use our project public."
     }
   ]

@@ -8,7 +8,8 @@ const Service = (props) => {
             <img src={serviceImage} alt="" className='w-full' />
             <div className='mx-8 relative pb-20'>
                 <h3 className='text-2xl mt-8 mb-5' >{serviceName}</h3>
-                <p>{serviceDesc}</p>
+
+                <p> {serviceDesc.length > 100 ? serviceDesc.slice(0, 100) + " ..." : serviceDesc}</p>
                 <div className='text-center flex items-center justify-between absolute bottom-0 right-0 left-0'>
                     <span className='text-lg font-medium'> Price: <strong className='text-2xl'> ${price}</strong> </span>
                     <Link to={'/checkout'} className=' inline-block items-center font-medium py-3 px-5 rounded-lg bg-neutral-200 my-2 hover:bg-cyan-500 '>Book Appoint</Link>

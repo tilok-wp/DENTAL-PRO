@@ -8,38 +8,38 @@
     },
     {
       "id": "6249eff3db3048c989611cb9",
-      "serviceImage": "https://i.ibb.co/jHnrZW9/service-1.jpg",
+      "serviceImage": "https://i.ibb.co/ZmspMR6/service-4.jpg",
       "price": 450,
       "serviceName": "Tooth Extractions",
       "serviceDesc": "Some adults person get their teeth removed, there are other reasons why tooth extraction may be necessary in adulthood. Excessive tooth decay, tooth infection, and crowding can all require a tooth extraction."
     },
     {
       "id": "6249eff3a5dc644e1abe0a88",
-      "serviceImage": "https://i.ibb.co/jHnrZW9/service-1.jpg",
+      "serviceImage": "https://i.ibb.co/xF1N8M8/service-5.jpg",
       "price": 200,
       "serviceName": "Bridges",
       "serviceDesc": "Your teeth work together. If a tooth is missing, nearby teeth can move into the empty space. The teeth in your opposite jaw can also move up or down toward the space. This can cause: Bite problems. Chewing difficulties. Pain from the extra stress on your teeth and jaw. Self-consciousness about the way you look or your smile."
     },
     {
       "id": "6249eff3f3e69b5db27660bc",
-      "serviceImage": "https://i.ibb.co/jHnrZW9/service-1.jpg",
+      "serviceImage": "https://i.ibb.co/QfTxsZj/service-6.jpg",
       "price": 400,
       "serviceName": "Crowns",
-      "serviceDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries"
+      "serviceDesc": "Teeth crowns is process to caps placed on top of damaged teeth. Teeth Crowns used to protect, cover and restore the shape. Dental crowns can be made out of metals, porcelain, resin and ceramics. It's require special care over time other than regular good oral hygiene."
     },
     {
       "id": "6249ebdf3f3e69b5db27660bc",
-      "serviceImage": "https://i.ibb.co/jHnrZW9/service-1.jpg",
+      "serviceImage": "https://i.ibb.co/0GbWnKY/service-3.jpg",
       "price": 240,
       "serviceName": "General Dentistry",
-      "serviceDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries"
+      "serviceDesc": "General dentists is the process to  prevent, evaluate, diagnose, and treat diseases of the oral cavity, as well as maintain the function and appearance of the teeth. There are some oral diseases can indicate other diseases. To get rid of the pain, the dentist needs to deaden the nerve and remove the tissue."
     },
     {
       "id": "6249ebdf3f3e69b5db27254bc",
-      "serviceImage": "https://i.ibb.co/jHnrZW9/service-1.jpg",
+      "serviceImage": "https://i.ibb.co/8dHpynJ/service-1.jpg",
       "price": 350,
-      "serviceName": "Pediatrics",
-      "serviceDesc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries"
+      "serviceName": "Root Canal",
+      "serviceDesc": "The most people dread, and for fair reasons. Root canals are usually preceded by some pretty awful tooth pain. A root canal means the tissue inside or under your tooth is infected and inflamed. To relieve the pain, the dentist needed to remove the instrument and remove it."
     }
     
   ]
