@@ -11,7 +11,7 @@ const Service = (props) => {
                 <p>{serviceDesc}</p>
                 <div className='text-center flex items-center justify-between absolute bottom-0 right-0 left-0'>
                     <span className='text-lg font-medium'> Price: <strong className='text-2xl'> ${price}</strong> </span>
-                    <Link to={'/checkout'} className=' inline-block items-center font-medium py-3 px-9 rounded-lg bg-neutral-200 my-2 hover:bg-cyan-500 '>Add to cart</Link>
+                    <Link to={'/checkout'} className=' inline-block items-center font-medium py-3 px-5 rounded-lg bg-neutral-200 my-2 hover:bg-cyan-500 '>Book Appoint</Link>
                 </div>
 
             </div>
