@@ -26,6 +26,10 @@ const Register = () => {
     if (user) {
         navigate('/home')
     }
+    let errorText
+    if (error) {
+        errorText = <p className='text-red-800 p-3'>Error: {error?.message}</p>
+    }
 
     return (
         <div className='container mx-auto py-16'>
@@ -40,7 +44,7 @@ const Register = () => {
                 </form>
                 <p>Already registered <Link className='font-bold ml-3' to={'/login'}>Login </Link> </p>
                 <SocialLogin></SocialLogin>
-
+                {errorText}
             </div>
         </div>
     );

@@ -26,6 +26,10 @@ const Login = () => {
     if (user) {
         nevigate(from, { replace: true });
     }
+    let errorText
+    if (error) {
+        errorText = <p className='text-red-800 p-3'>Error: {error?.message}</p>
+    }
 
     return (
         <div className='container mx-auto py-16'>
@@ -40,6 +44,7 @@ const Login = () => {
                 <p>Are you new user?<Link className='font-bold ml-3' to={'/register'}>Please register </Link> </p>
 
                 <SocialLogin></SocialLogin>
+                {errorText}
 
             </div>
         </div>
