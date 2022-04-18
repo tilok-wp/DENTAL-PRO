@@ -54,3 +54,20 @@ Before we get started, keep in mind:
 [info] 
 [info] +  Success! Logged into GitHub as tilok-wp 
 [info] 
+[debug] [2022-04-17T18:50:36.515Z] ----------------------------------------------------------------------
+[debug] [2022-04-17T18:50:36.517Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Tilok\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-04-17T18:50:36.518Z] CLI Version:   10.6.0
+[debug] [2022-04-17T18:50:36.518Z] Platform:      win32
+[debug] [2022-04-17T18:50:36.518Z] Node Version:  v16.14.0
+[debug] [2022-04-17T18:50:36.519Z] Time:          Mon Apr 18 2022 00:50:36 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-04-17T18:50:36.519Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-17T18:50:36.607Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-17T18:50:36.608Z] > authorizing via signed-in user (tilokpaul12@gmail.com)
+[debug] [2022-04-17T18:50:36.608Z] [iam] checking project dentipro-assinment10 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-04-17T18:50:36.611Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/dentipro-assinment10:testIamPermissions [none]
+[debug] [2022-04-17T18:50:36.612Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/dentipro-assinment10:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-04-17T18:50:38.103Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/dentipro-assinment10:testIamPermissions 200
+[debug] [2022-04-17T18:50:38.103Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/dentipro-assinment10:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-04-17T18:50:38.104Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/dentipro-assinment10 [none]
+[debug] [2022-04-17T18:50:38.818Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/dentipro-assinment10 200
