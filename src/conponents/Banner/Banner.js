@@ -3,10 +3,14 @@ import bannerImage from '../../images/banner-image.png'
 
 const Banner = () => {
     return (
-        <section className='md:grid grid-cols-2'>
-            <div className='flex flex-col justify-center p-5 md:py-5'>
-                <h2 className='text-3xl font-medium decoration-gray-600 uppercase'>Proffesional & Family Dental Care</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi totam nihil ipsam doloribus autem eveniet, corporis voluptatum dolor, atque aspernatur numquam aliquid id asperiores quae labore. Optio at nobis ipsam.    </p>
+        <section className='md:grid grid-cols-2 container mx-auto'>
+            <div className='flex flex-col justify-center px-5 py-20 md:py-5'>
+                <h2 className='text-3xl font-medium decoration-gray-600 uppercase'>Proffesional and Family Dental Care</h2>
+                <p className='mt-2'>Are you looking for happy smile teeth dental care services? Yes are in wright place. I providing dental services for your's and your family member. Please check our services and contact if any query. </p>
+                <div>
+                    <a href="#contact" className='bg-cyan-500 hover:bg-cyan-800 px-9 py-3 mt-3 mx-auto text-white rounded inline-block'>Contact now</a>
+
+                </div>
                 <div>
                 </div>
             </div>

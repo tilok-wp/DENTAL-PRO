@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <footer className='bg-gray-800 text-center py-8'>
-            <p className='text-white'><Link to={'/'}>DentiPro</Link> copywright &copy;{new Date().getFullYear()} all right reserved. </p>
+            <p className='text-white'><Link to={'/'}>Dental Pro</Link> copywright &copy;{new Date().getFullYear()} all right reserved. </p>
         </footer>
     );
 };
