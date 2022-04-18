@@ -19,12 +19,16 @@ const Register = () => {
         const fullName = event.target.displayName.value
         const email = event.target.email.value
         const password = event.target.password.value
-        console.log(fullName, email, password)
+        // console.log(fullName, email, password)
         createUserWithEmailAndPassword(email, password)
     }
 
+    if (user) {
+        navigate('/home')
+    }
+
     return (
-        <div className='container mx-auto py-28'>
+        <div className='container mx-auto py-16'>
             <h3 className="my-5 text-center text-3xl uppercase">Please Register</h3>
 
             <div className='shadow shadow-blue-500/40 hover:shadow-indigo-500/40 md:w-1/2 mx-auto py-8  rounded-lg bg-slate-50'>
