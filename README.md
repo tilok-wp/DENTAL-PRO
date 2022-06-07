@@ -9,14 +9,15 @@ Firebase Live site link: [https://dental-pro-care.netlify.app/](https://dental-p
 ## Website Features
 
 ---
-
-- Dental care services and consultancy
+Dental Pro is a personal dental care web application. 
+- User can resister and login
+- login user book the service he wants.
+- Add services 
 - Dental services
 - Blog feature
 - About feature
 - User Authorization and authentication
 - Contact
-- Checkout
 
 ## List of technologies frameworks and libraries use in this projects
 
